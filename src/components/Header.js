@@ -13,7 +13,7 @@ const Header = () => {
         {/* <button className="btn btn-primary btn-lg mt-4 rounded-pill">
           Забронировать стол
         </button> */}
-      </div>а
+      </div>
     </header>
   );
 };
