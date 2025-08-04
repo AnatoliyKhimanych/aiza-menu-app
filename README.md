@@ -29,6 +29,7 @@
 
 - React (Create React App)
 - HTML/CSS/JS
+- Bootstrap
 - Vercel (деплой)
 - Git и GitHub
 
