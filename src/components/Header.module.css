@@ -1,0 +1,11 @@
+.heroHeader {
+  background-image: url('../assets/images/header-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2e3b50;
+}
