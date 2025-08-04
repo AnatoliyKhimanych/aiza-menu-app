@@ -1,9 +1,28 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('/src/assets/fonts/PlayfairDisplay-VariableFont_wght.ttf')
+    format('woff2');
+  font-weight: bold;
+  font-style: normal;
 }
 
+@font-face {
+  font-family: 'Open Sans';
+  src: url('/src/assets/fonts/OpenSans-VariableFont_wdth\,wght.ttf')
+    format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h5,
+h6 {
+  font-family: 'Playfair Display', serif;
+}
