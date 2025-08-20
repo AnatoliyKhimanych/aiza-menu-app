@@ -1,9 +1,9 @@
-import Header from './components/Header.js';
+import MainPage from './pages/MainPage';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
+    <div className="bg-wrap">
+      <MainPage />
     </div>
   );
 }

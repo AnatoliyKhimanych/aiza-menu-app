@@ -26,3 +26,13 @@ h5,
 h6 {
   font-family: 'Playfair Display', serif;
 }
+
+/* Основной фон */
+.bg-wrap {
+  min-height: 100svh;
+  background-image: url(/public/background-img.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: contrast(1.02) saturate(1.02);
+}
