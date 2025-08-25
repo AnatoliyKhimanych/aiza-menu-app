@@ -35,4 +35,5 @@ h6 {
   background-position: center;
   background-repeat: no-repeat;
   filter: contrast(1.02) saturate(1.02);
+  padding: 30px;
 }
